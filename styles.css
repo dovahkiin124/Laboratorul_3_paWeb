@@ -1,0 +1,62 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eee4b1;
+  color: #5f374b;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile img {
+  width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.hobbies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hobbies li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.hobbies li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAFBgAEBwMCAQj/xAAvEAABAwQBAgQFAwUAAAAAAAABAAIDBAURIQYSMSJBUZETMmFxoRQjgTNCYnKx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERMRIh/9oADAMBAAIRAxEAPwDDVFFFJF6Yxz3dLGlx9AEStFmmuDg7BbH6+ZT1aeNxQtAbGPvjaNMhCgstbMARF0j/ACKuDjFYRtzfZanT2VoHyj2VsWhuPlHsjacjHJeO1sY8Ia78IdUUdRTn96JzfrjS2+WztI+X8ITXWNrmnLM/wrasY+omy9cZLOqSnb0u9PIpWkjfE8skaWuHcFOix4UUUSERWw2t1wqAXD9pp39ShkbS+RrGjJccBahxS1NhgjaG+Qycd0WmQUs1obGxoDcJppKAADwr3bqQADSN08GhpEhqpHRgDsuwpBjsiTIRhe/hD0WhoNJRjHZUaqiBB0mV0OuyqzwaOkYtIdytwIPhWf8AJrJ1B0kbcSN7fVbHXUwIOkpXqiBa7X4Rfh6xVwIJBGCF8RfkdF+mq+tow1//AFCFpkT49B8e5xgjTdrY7DThrGaWU8OaDcH/AGC2SyNHQ1ZvWpwxUUQwNIrCxU6QaCIRdfWQWtEeBh3VsnedY0O3n69sb0HVrV6DV9avSg5uaq8zNK2Vxk7KQNWR6KWbrCMHSbqoaKW7o3RRTGU8xpQad7gNt2khaRytoNPL/qVnCoqN8SlDLlg/3BbLZJRgYPY47LCLbUfpq2KXyDt/ZbDx2s642nPoi9MaHRvyAiMZQGhnBaEXhkyEwVeaV6yq7H6XvrSHRxXCQ6X1z1Xlk0VJVq3aS3dX+Eo3WTAApWu9QA120WtQi8umDaWXfks8TVzGs6nCEHZOT9kqqgqJ14becAQSO8bO2fMJKXSCZ8ErZIjhzexVVH6AtdwDmt8SYaaqBA2sc43yRsrWte7pkHdpKeaC7Nc0eL8rPCd2ThdfjfVLcNxafNWBXjHzLWgZfOqk9SADtDpK8Y7obV3JrQfErVixcKwAHaSeQ3Rkcby52AAut5vbImOcXgADe1m96uz7hKQ0kRZ90dPFKvqXVdS+V3n2HoFXUUWmUUUUUnpj3McHMcWuHYhHbbyaopsNmy8eo7oAopa0Wi5dTuAzMAfR2kTbyeEj+s33WTqI8nWo1PKqdg3M0fyl+48uDsiAF59ewSevivK1ara6etf1TvyPJo7BVVFEhFFFFJ//2Q==");
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5f374b;
+}
+
+.icon-envelope {
+  font-size: 24px;
+  background-image: "C:/Users/Asus/AppData/Local/Temp/Tempac56bf3d-c7ef-46fd-93a3-d335428355cf_lineicons-4.0-basic-free.zip/svg-files/Party%20and%20Fest/flags-alt-1.svg";
+  color: #5f374b;
+}
